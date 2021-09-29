@@ -1,0 +1,989 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0a1ef6c1-e358-4eba-9ceb-bf4c64304c3a" name="Default Changelist" comment="210819 EE Supplementary Material">
+      <change afterPath="$PROJECT_DIR$/.idea/EGK-effort_luck.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 1/170307-ldrshipEL.ztt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/Procfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/_rooms/EMU.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/_static/back_button_v2/css/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/_static/back_button_v2/js/prev_next_button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/_static/back_button_v3/css/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/_static/back_button_v3/js/prev_next_button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/_static/belief-slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/_static/belief-slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/_static/gametree/game0.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/_static/gametree/game1.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/_static/global/empty.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/_templates/global/Page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/_templates/higheffort_template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/_templates/investment_template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/_templates/loweffort_template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_admin/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_admin/_builtin/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_admin/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_admin/pages.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_admin/templates/el_admin/A_Welcome.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_admin/templates/el_admin/B_PLS_Consent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_admin/templates/el_admin/D_Overview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_admin/templates/el_admin/E_Turnaway.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_admin/templates/el_admin/TaskWaitPage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_admin/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_dictator_task/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_dictator_task/_builtin/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_dictator_task/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_dictator_task/pages.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_dictator_task/templates/el_dictator_task/A_Intro.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_dictator_task/templates/el_dictator_task/B_Decision.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_dictator_task/templates/el_dictator_task/C_WaitPage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_dictator_task/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_end/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_end/_builtin/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_end/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_end/pages.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_end/templates/el_end/A_Dropout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_end/templates/el_end/B_End.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_end/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_exp_outcome/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_exp_outcome/_builtin/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_exp_outcome/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_exp_outcome/pages.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_exp_outcome/templates/el_exp_outcome/MyPage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_exp_outcome/templates/el_exp_outcome/Results.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_exp_outcome/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_investment_ctrl/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_investment_ctrl/_builtin/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_investment_ctrl/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_investment_ctrl/pages.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_investment_ctrl/templates/el_investment_ctrl/A_Intro.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_investment_ctrl/templates/el_investment_ctrl/B_CtrlQnsIntro.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_investment_ctrl/templates/el_investment_ctrl/C1_CtrlQnsTaskPaid.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_investment_ctrl/templates/el_investment_ctrl/C2_CtrlQnsTask1RoundPaid.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_investment_ctrl/templates/el_investment_ctrl/C3_CtrlQnsGroup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_investment_ctrl/templates/el_investment_ctrl/C4_CtrlQnsFeedback.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_investment_ctrl/templates/el_investment_ctrl/C5_CtrlQnsPayoffMember.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_investment_ctrl/templates/el_investment_ctrl/C6_CtrlQnsPayoffLeader.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_investment_ctrl/templates/el_investment_ctrl/C7_CtrlQnsPaymentRole.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_investment_ctrl/templates/el_investment_ctrl/C8_CtrlQnsBeliefPayment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_investment_ctrl/templates/el_investment_ctrl/C9_CtrlQnsTruthTelling.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_investment_ctrl/templates/el_investment_ctrl/D_Summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_investment_ctrl/templates/el_investment_ctrl/TaskWaitPage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_investment_ctrl/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_investment_task/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_investment_task/_builtin/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_investment_task/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_investment_task/pages.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_investment_task/templates/el_investment_task/A_PracticeIntro.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_investment_task/templates/el_investment_task/B_RoundIntro.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_investment_task/templates/el_investment_task/C_InvestmentInfo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_investment_task/templates/el_investment_task/D_Investment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_investment_task/templates/el_investment_task/E_Prior.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_investment_task/templates/el_investment_task/F_Posterior.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_investment_task/templates/el_investment_task/G_InvestmentHypothetical.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_investment_task/templates/el_investment_task/H_WaitPage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_investment_task/templates/el_investment_task/TaskWaitPage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_investment_task/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_questionnaire/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_questionnaire/_builtin/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_questionnaire/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_questionnaire/pages.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_questionnaire/templates/el_questionnaire/A_Intro.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_questionnaire/templates/el_questionnaire/B_General.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_questionnaire/templates/el_questionnaire/C_Demographic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_questionnaire/templates/el_questionnaire/D_EffortGeneral.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_questionnaire/templates/el_questionnaire/E_EffortFactors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_questionnaire/templates/el_questionnaire/F_BeliefsGeneral.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_questionnaire/templates/el_questionnaire/G_BeliefsFactors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_questionnaire/templates/el_questionnaire/H_Dictator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_questionnaire/templates/el_questionnaire/I_RiskGame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_questionnaire/templates/el_questionnaire/J_PayID.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_questionnaire/templates/el_questionnaire/WaitScreen.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/el_questionnaire/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/requirements_base.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/runtime.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimental Program/Experiment 2/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Online Appendix.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S10-170308/170308_0941.adr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S10-170308/170308_0941.gsf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S10-170308/170308_0941.pay" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S10-170308/170308_0941.sbj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S10-170308/170308_0941.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S10-170308/@1.ztq" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S10-170308/@1.ztt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S10-170308/@db.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S10-170308/@prevdb.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S10-170308/P1.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S10-170308/P10.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S10-170308/P11.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S10-170308/P12.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S10-170308/P13.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S10-170308/P14.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S10-170308/P15.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S10-170308/P16.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S10-170308/P17.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S10-170308/P18.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S10-170308/P19.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S10-170308/P2.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S10-170308/P20.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S10-170308/P21.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S10-170308/P22.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S10-170308/P23.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S10-170308/P24.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S10-170308/P25.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S10-170308/P26.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S10-170308/P27.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S10-170308/P28.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S10-170308/P29.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S10-170308/P3.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S10-170308/P30.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S10-170308/P4.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S10-170308/P5.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S10-170308/P6.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S10-170308/P7.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S10-170308/P8.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S10-170308/P9.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S10-170308/PracSlide1.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S10-170308/Slide1.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S10-170308/Slide2.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S10-170308/Slide3.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S10-170308/Slide4.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S10-170308/Slide5.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S10-170308/Slide6.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S10-170308/server.eec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S10-170308/zleaf.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S10-170308/ztree.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S11-170308/170308_1251.adr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S11-170308/170308_1251.gsf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S11-170308/170308_1251.pay" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S11-170308/170308_1251.sbj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S11-170308/170308_1251.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S11-170308/@1.ztq" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S11-170308/@1.ztt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S11-170308/@db.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S11-170308/@prevdb.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S11-170308/P1.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S11-170308/P10.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S11-170308/P11.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S11-170308/P12.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S11-170308/P13.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S11-170308/P14.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S11-170308/P15.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S11-170308/P16.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S11-170308/P17.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S11-170308/P18.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S11-170308/P19.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S11-170308/P2.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S11-170308/P20.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S11-170308/P21.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S11-170308/P22.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S11-170308/P23.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S11-170308/P24.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S11-170308/P25.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S11-170308/P26.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S11-170308/P27.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S11-170308/P28.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S11-170308/P29.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S11-170308/P3.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S11-170308/P30.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S11-170308/P4.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S11-170308/P5.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S11-170308/P6.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S11-170308/P7.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S11-170308/P8.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S11-170308/P9.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S11-170308/PracSlide1.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S11-170308/Slide1.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S11-170308/Slide2.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S11-170308/Slide3.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S11-170308/Slide4.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S11-170308/Slide5.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S11-170308/Slide6.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S11-170308/server.eec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S11-170308/zleaf.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S11-170308/ztree.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S12-170310/170310_0936.adr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S12-170310/170310_0936.gsf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S12-170310/170310_0936.pay" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S12-170310/170310_0936.sbj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S12-170310/170310_0936.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S12-170310/@1.ztq" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S12-170310/@1.ztt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S12-170310/@db.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S12-170310/@prevdb.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S12-170310/P1.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S12-170310/P10.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S12-170310/P11.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S12-170310/P12.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S12-170310/P13.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S12-170310/P14.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S12-170310/P15.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S12-170310/P16.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S12-170310/P17.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S12-170310/P18.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S12-170310/P19.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S12-170310/P2.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S12-170310/P20.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S12-170310/P21.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S12-170310/P22.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S12-170310/P23.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S12-170310/P24.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S12-170310/P25.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S12-170310/P26.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S12-170310/P27.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S12-170310/P28.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S12-170310/P29.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S12-170310/P3.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S12-170310/P30.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S12-170310/P4.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S12-170310/P5.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S12-170310/P6.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S12-170310/P7.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S12-170310/P8.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S12-170310/P9.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S12-170310/PracSlide1.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S12-170310/Slide1.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S12-170310/Slide2.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S12-170310/Slide3.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S12-170310/Slide4.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S12-170310/Slide5.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S12-170310/Slide6.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S12-170310/server.eec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S12-170310/zleaf.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S12-170310/ztree.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S13-170310/170310_1304.adr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S13-170310/170310_1304.gsf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S13-170310/170310_1304.pay" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S13-170310/170310_1304.sbj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S13-170310/170310_1304.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S13-170310/@1.ztq" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S13-170310/@1.ztt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S13-170310/@db.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S13-170310/@prevdb.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S13-170310/P1.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S13-170310/P10.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S13-170310/P11.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S13-170310/P12.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S13-170310/P13.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S13-170310/P14.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S13-170310/P15.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S13-170310/P16.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S13-170310/P17.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S13-170310/P18.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S13-170310/P19.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S13-170310/P2.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S13-170310/P20.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S13-170310/P21.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S13-170310/P22.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S13-170310/P23.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S13-170310/P24.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S13-170310/P25.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S13-170310/P26.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S13-170310/P27.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S13-170310/P28.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S13-170310/P29.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S13-170310/P3.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S13-170310/P30.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S13-170310/P4.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S13-170310/P5.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S13-170310/P6.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S13-170310/P7.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S13-170310/P8.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S13-170310/P9.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S13-170310/PracSlide1.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S13-170310/Slide1.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S13-170310/Slide2.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S13-170310/Slide3.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S13-170310/Slide4.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S13-170310/Slide5.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S13-170310/Slide6.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S13-170310/server.eec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S13-170310/zleaf.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S13-170310/ztree.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S14-170314/170314_0850.adr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S14-170314/170314_0850.gsf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S14-170314/170314_0850.pay" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S14-170314/170314_0850.sbj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S14-170314/170314_0850.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S14-170314/@1.ztq" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S14-170314/@1.ztt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S14-170314/@db.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S14-170314/@prevdb.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S14-170314/P1.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S14-170314/P10.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S14-170314/P11.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S14-170314/P12.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S14-170314/P13.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S14-170314/P14.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S14-170314/P15.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S14-170314/P16.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S14-170314/P17.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S14-170314/P18.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S14-170314/P19.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S14-170314/P2.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S14-170314/P20.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S14-170314/P21.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S14-170314/P22.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S14-170314/P23.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S14-170314/P24.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S14-170314/P25.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S14-170314/P26.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S14-170314/P27.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S14-170314/P28.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S14-170314/P29.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S14-170314/P3.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S14-170314/P30.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S14-170314/P4.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S14-170314/P5.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S14-170314/P6.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S14-170314/P7.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S14-170314/P8.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S14-170314/P9.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S14-170314/PracSlide1.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S14-170314/Slide1.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S14-170314/Slide2.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S14-170314/Slide3.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S14-170314/Slide4.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S14-170314/Slide5.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S14-170314/Slide6.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S14-170314/server.eec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S14-170314/zleaf.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S14-170314/ztree.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S15-170314/170314_1306.adr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S15-170314/170314_1306.gsf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S15-170314/170314_1306.pay" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S15-170314/170314_1306.sbj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S15-170314/170314_1306.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S15-170314/@1.ztq" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S15-170314/@1.ztt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S15-170314/@db.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S15-170314/@prevdb.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S15-170314/P1.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S15-170314/P10.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S15-170314/P11.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S15-170314/P12.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S15-170314/P13.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S15-170314/P14.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S15-170314/P15.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S15-170314/P16.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S15-170314/P17.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S15-170314/P18.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S15-170314/P19.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S15-170314/P2.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S15-170314/P20.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S15-170314/P21.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S15-170314/P22.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S15-170314/P23.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S15-170314/P24.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S15-170314/P25.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S15-170314/P26.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S15-170314/P27.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S15-170314/P28.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S15-170314/P29.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S15-170314/P3.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S15-170314/P30.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S15-170314/P4.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S15-170314/P5.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S15-170314/P6.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S15-170314/P7.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S15-170314/P8.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S15-170314/P9.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S15-170314/PracSlide1.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S15-170314/Slide1.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S15-170314/Slide2.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S15-170314/Slide3.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S15-170314/Slide4.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S15-170314/Slide5.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S15-170314/Slide6.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S15-170314/server.eec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S15-170314/zleaf.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S15-170314/ztree.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S16-170315/170315_0950.adr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S16-170315/170315_0950.gsf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S16-170315/170315_0950.pay" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S16-170315/170315_0950.sbj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S16-170315/170315_0950.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S16-170315/@1.ztq" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S16-170315/@1.ztt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S16-170315/@db.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S16-170315/@prevdb.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S16-170315/P1.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S16-170315/P10.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S16-170315/P11.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S16-170315/P12.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S16-170315/P13.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S16-170315/P14.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S16-170315/P15.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S16-170315/P16.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S16-170315/P17.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S16-170315/P18.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S16-170315/P19.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S16-170315/P2.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S16-170315/P20.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S16-170315/P21.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S16-170315/P22.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S16-170315/P23.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S16-170315/P24.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S16-170315/P25.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S16-170315/P26.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S16-170315/P27.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S16-170315/P28.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S16-170315/P29.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S16-170315/P3.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S16-170315/P30.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S16-170315/P4.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S16-170315/P5.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S16-170315/P6.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S16-170315/P7.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S16-170315/P8.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S16-170315/P9.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S16-170315/PracSlide1.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S16-170315/Slide1.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S16-170315/Slide2.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S16-170315/Slide3.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S16-170315/Slide4.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S16-170315/Slide5.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S16-170315/Slide6.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S16-170315/server.eec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S16-170315/zleaf.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S16-170315/ztree.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S17-170315/170315_1243.adr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S17-170315/170315_1243.gsf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S17-170315/170315_1243.pay" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S17-170315/170315_1243.sbj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S17-170315/170315_1243.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S17-170315/@1.ztq" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S17-170315/@1.ztt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S17-170315/@db.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S17-170315/@prevdb.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S17-170315/P1.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S17-170315/P10.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S17-170315/P11.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S17-170315/P12.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S17-170315/P13.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S17-170315/P14.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S17-170315/P15.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S17-170315/P16.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S17-170315/P17.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S17-170315/P18.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S17-170315/P19.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S17-170315/P2.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S17-170315/P20.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S17-170315/P21.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S17-170315/P22.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S17-170315/P23.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S17-170315/P24.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S17-170315/P25.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S17-170315/P26.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S17-170315/P27.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S17-170315/P28.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S17-170315/P29.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S17-170315/P3.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S17-170315/P30.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S17-170315/P4.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S17-170315/P5.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S17-170315/P6.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S17-170315/P7.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S17-170315/P8.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S17-170315/P9.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S17-170315/PracSlide1.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S17-170315/Slide1.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S17-170315/Slide2.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S17-170315/Slide3.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S17-170315/Slide4.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S17-170315/Slide5.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S17-170315/Slide6.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S17-170315/server.eec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S17-170315/zleaf.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S17-170315/ztree.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S18-170317/170317_0928.adr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S18-170317/170317_0928.gsf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S18-170317/170317_0928.pay" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S18-170317/170317_0928.sbj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S18-170317/170317_0928.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S18-170317/@1.ztq" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S18-170317/@1.ztt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S18-170317/@db.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S18-170317/@prevdb.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S18-170317/P1.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S18-170317/P10.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S18-170317/P11.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S18-170317/P12.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S18-170317/P13.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S18-170317/P14.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S18-170317/P15.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S18-170317/P16.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S18-170317/P17.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S18-170317/P18.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S18-170317/P19.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S18-170317/P2.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S18-170317/P20.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S18-170317/P21.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S18-170317/P22.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S18-170317/P23.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S18-170317/P24.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S18-170317/P25.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S18-170317/P26.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S18-170317/P27.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S18-170317/P28.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S18-170317/P29.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S18-170317/P3.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S18-170317/P30.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S18-170317/P4.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S18-170317/P5.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S18-170317/P6.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S18-170317/P7.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S18-170317/P8.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S18-170317/P9.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S18-170317/PracSlide1.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S18-170317/Slide1.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S18-170317/Slide2.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S18-170317/Slide3.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S18-170317/Slide4.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S18-170317/Slide5.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S18-170317/Slide6.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S18-170317/server.eec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S18-170317/zleaf.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S18-170317/ztree.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S19-170321/170321_1048.adr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S19-170321/170321_1048.gsf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S19-170321/170321_1048.pay" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S19-170321/170321_1048.sbj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S19-170321/170321_1048.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S19-170321/@1.ztq" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S19-170321/@1.ztt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S19-170321/@db.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S19-170321/@prevdb.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S19-170321/P1.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S19-170321/P10.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S19-170321/P11.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S19-170321/P12.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S19-170321/P13.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S19-170321/P14.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S19-170321/P15.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S19-170321/P16.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S19-170321/P17.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S19-170321/P18.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S19-170321/P19.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S19-170321/P2.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S19-170321/P20.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S19-170321/P21.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S19-170321/P22.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S19-170321/P23.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S19-170321/P24.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S19-170321/P25.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S19-170321/P26.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S19-170321/P27.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S19-170321/P28.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S19-170321/P29.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S19-170321/P3.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S19-170321/P30.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S19-170321/P4.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S19-170321/P5.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S19-170321/P6.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S19-170321/P7.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S19-170321/P8.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S19-170321/P9.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S19-170321/PracSlide1.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S19-170321/Slide1.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S19-170321/Slide2.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S19-170321/Slide3.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S19-170321/Slide4.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S19-170321/Slide5.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S19-170321/Slide6.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S19-170321/server.eec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S19-170321/zleaf.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 1/S19-170321/ztree.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 1 - NSM - 201008/All apps - wide-2020-10-08.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 1 - NSM - 201008/PageTimes-2020-10-08.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 1 - NSM - 201008/el_admin_2020-10-08.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 1 - NSM - 201008/el_dictator_task_2020-10-08.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 1 - NSM - 201008/el_end_2020-10-08.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 1 - NSM - 201008/el_exp_outcome_2020-10-08.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 1 - NSM - 201008/el_investment_ctrl_2020-10-08.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 1 - NSM - 201008/el_investment_task_2020-10-08.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 1 - NSM - 201008/el_questionnaire_2020-10-08.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 10 - NSM - 201015/All apps - wide-2020-10-15.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 10 - NSM - 201015/PageTimes-2020-10-15.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 10 - NSM - 201015/el_admin_2020-10-15.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 10 - NSM - 201015/el_dictator_task_2020-10-15.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 10 - NSM - 201015/el_end_2020-10-15.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 10 - NSM - 201015/el_exp_outcome_2020-10-15.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 10 - NSM - 201015/el_investment_ctrl_2020-10-15.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 10 - NSM - 201015/el_investment_task_2020-10-15.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 10 - NSM - 201015/el_questionnaire_2020-10-15.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 11 - NSM - 201015/All apps - wide-2020-10-15.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 11 - NSM - 201015/PageTimes-2020-10-15.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 11 - NSM - 201015/el_admin_2020-10-15.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 11 - NSM - 201015/el_dictator_task_2020-10-15.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 11 - NSM - 201015/el_end_2020-10-15.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 11 - NSM - 201015/el_exp_outcome_2020-10-15.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 11 - NSM - 201015/el_investment_ctrl_2020-10-15.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 11 - NSM - 201015/el_investment_task_2020-10-15.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 11 - NSM - 201015/el_questionnaire_2020-10-15.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 12 - SM - 201016/All apps - wide-2020-10-16.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 12 - SM - 201016/PageTimes-2020-10-16.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 12 - SM - 201016/el_admin_2020-10-16.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 12 - SM - 201016/el_dictator_task_2020-10-16.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 12 - SM - 201016/el_end_2020-10-16.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 12 - SM - 201016/el_exp_outcome_2020-10-16.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 12 - SM - 201016/el_investment_ctrl_2020-10-16.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 12 - SM - 201016/el_investment_task_2020-10-16.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 12 - SM - 201016/el_questionnaire_2020-10-16.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 13 - NSM - 201016/All apps - wide-2020-10-16.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 13 - NSM - 201016/PageTimes-2020-10-16.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 13 - NSM - 201016/el_admin_2020-10-16.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 13 - NSM - 201016/el_dictator_task_2020-10-16.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 13 - NSM - 201016/el_end_2020-10-16.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 13 - NSM - 201016/el_exp_outcome_2020-10-16.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 13 - NSM - 201016/el_investment_ctrl_2020-10-16.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 13 - NSM - 201016/el_investment_task_2020-10-16.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 13 - NSM - 201016/el_questionnaire_2020-10-16.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 14 - SM - 201016/All apps - wide-2020-10-16.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 14 - SM - 201016/PageTimes-2020-10-16.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 14 - SM - 201016/el_admin_2020-10-16.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 14 - SM - 201016/el_dictator_task_2020-10-16.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 14 - SM - 201016/el_end_2020-10-16.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 14 - SM - 201016/el_exp_outcome_2020-10-16.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 14 - SM - 201016/el_investment_ctrl_2020-10-16.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 14 - SM - 201016/el_investment_task_2020-10-16.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 14 - SM - 201016/el_questionnaire_2020-10-16.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 15 - NSM - 201020/All apps - wide-2020-10-20.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 15 - NSM - 201020/PageTimes-2020-10-20.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 15 - NSM - 201020/el_admin_2020-10-20.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 15 - NSM - 201020/el_dictator_task_2020-10-20.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 15 - NSM - 201020/el_end_2020-10-20.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 15 - NSM - 201020/el_exp_outcome_2020-10-20.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 15 - NSM - 201020/el_investment_ctrl_2020-10-20.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 15 - NSM - 201020/el_investment_task_2020-10-20.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 15 - NSM - 201020/el_questionnaire_2020-10-20.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 16 - NSM - 201020/All apps - wide-2020-10-20.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 16 - NSM - 201020/PageTimes-2020-10-20.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 16 - NSM - 201020/el_admin_2020-10-20.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 16 - NSM - 201020/el_dictator_task_2020-10-20.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 16 - NSM - 201020/el_end_2020-10-20.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 16 - NSM - 201020/el_exp_outcome_2020-10-20.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 16 - NSM - 201020/el_investment_ctrl_2020-10-20.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 16 - NSM - 201020/el_investment_task_2020-10-20.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 16 - NSM - 201020/el_questionnaire_2020-10-20.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 17 - SM - 201020/All apps - wide-2020-10-20.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 17 - SM - 201020/PageTimes-2020-10-20.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 17 - SM - 201020/el_admin_2020-10-20.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 17 - SM - 201020/el_dictator_task_2020-10-20.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 17 - SM - 201020/el_end_2020-10-20.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 17 - SM - 201020/el_exp_outcome_2020-10-20.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 17 - SM - 201020/el_investment_ctrl_2020-10-20.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 17 - SM - 201020/el_investment_task_2020-10-20.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 17 - SM - 201020/el_questionnaire_2020-10-20.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 18 - NSM - 201022/All apps - wide-2020-10-22.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 18 - NSM - 201022/PageTimes-2020-10-22.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 18 - NSM - 201022/el_admin_2020-10-22.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 18 - NSM - 201022/el_dictator_task_2020-10-22.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 18 - NSM - 201022/el_end_2020-10-22.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 18 - NSM - 201022/el_exp_outcome_2020-10-22.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 18 - NSM - 201022/el_investment_ctrl_2020-10-22.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 18 - NSM - 201022/el_investment_task_2020-10-22.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 18 - NSM - 201022/el_questionnaire_2020-10-22.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 19 - SM - 201022/All apps - wide-2020-10-22.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 19 - SM - 201022/PageTimes-2020-10-22.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 19 - SM - 201022/el_admin_2020-10-22.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 19 - SM - 201022/el_dictator_task_2020-10-22.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 19 - SM - 201022/el_end_2020-10-22.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 19 - SM - 201022/el_exp_outcome_2020-10-22.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 19 - SM - 201022/el_investment_ctrl_2020-10-22.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 19 - SM - 201022/el_investment_task_2020-10-22.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 19 - SM - 201022/el_questionnaire_2020-10-22.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 2 - SM - 201008/All apps - wide-2020-10-08.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 2 - SM - 201008/PageTimes-2020-10-08.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 2 - SM - 201008/el_admin_2020-10-08.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 2 - SM - 201008/el_dictator_task_2020-10-08.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 2 - SM - 201008/el_end_2020-10-08.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 2 - SM - 201008/el_exp_outcome_2020-10-08.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 2 - SM - 201008/el_investment_ctrl_2020-10-08.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 2 - SM - 201008/el_investment_task_2020-10-08.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 2 - SM - 201008/el_questionnaire_2020-10-08.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 20 - NSM - 201023/All apps - wide-2020-10-22.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 20 - NSM - 201023/PageTimes-2020-10-22.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 20 - NSM - 201023/el_admin_2020-10-22.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 20 - NSM - 201023/el_dictator_task_2020-10-22.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 20 - NSM - 201023/el_end_2020-10-22.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 20 - NSM - 201023/el_exp_outcome_2020-10-22.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 20 - NSM - 201023/el_investment_ctrl_2020-10-22.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 20 - NSM - 201023/el_investment_task_2020-10-22.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 20 - NSM - 201023/el_questionnaire_2020-10-22.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 21 - NSM - 201023/All apps - wide-2020-10-23.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 21 - NSM - 201023/PageTimes-2020-10-23.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 21 - NSM - 201023/el_admin_2020-10-23.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 21 - NSM - 201023/el_dictator_task_2020-10-23.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 21 - NSM - 201023/el_end_2020-10-23.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 21 - NSM - 201023/el_exp_outcome_2020-10-23.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 21 - NSM - 201023/el_investment_ctrl_2020-10-23.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 21 - NSM - 201023/el_investment_task_2020-10-23.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 21 - NSM - 201023/el_questionnaire_2020-10-23.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 22 - SM - 201023/All apps - wide-2020-10-23.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 22 - SM - 201023/PageTimes-2020-10-23.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 22 - SM - 201023/el_admin_2020-10-23.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 22 - SM - 201023/el_dictator_task_2020-10-23.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 22 - SM - 201023/el_end_2020-10-23.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 22 - SM - 201023/el_exp_outcome_2020-10-23.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 22 - SM - 201023/el_investment_ctrl_2020-10-23.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 22 - SM - 201023/el_investment_task_2020-10-23.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 22 - SM - 201023/el_questionnaire_2020-10-23.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 3 - NSM - 201008/All apps - wide-2020-10-08.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 3 - NSM - 201008/PageTimes-2020-10-08.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 3 - NSM - 201008/el_admin_2020-10-08.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 3 - NSM - 201008/el_dictator_task_2020-10-08.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 3 - NSM - 201008/el_end_2020-10-08.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 3 - NSM - 201008/el_exp_outcome_2020-10-08.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 3 - NSM - 201008/el_investment_ctrl_2020-10-08.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 3 - NSM - 201008/el_investment_task_2020-10-08.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 3 - NSM - 201008/el_questionnaire_2020-10-08.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 4 - SM - 201009/All apps - wide-2020-10-09.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 4 - SM - 201009/PageTimes-2020-10-09.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 4 - SM - 201009/el_admin_2020-10-09.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 4 - SM - 201009/el_dictator_task_2020-10-09.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 4 - SM - 201009/el_end_2020-10-09.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 4 - SM - 201009/el_exp_outcome_2020-10-09.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 4 - SM - 201009/el_investment_ctrl_2020-10-09.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 4 - SM - 201009/el_investment_task_2020-10-09.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 4 - SM - 201009/el_questionnaire_2020-10-09.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 5 - NSM - 201009/All apps - wide-2020-10-09.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 5 - NSM - 201009/PageTimes-2020-10-09.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 5 - NSM - 201009/el_admin_2020-10-09.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 5 - NSM - 201009/el_dictator_task_2020-10-09.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 5 - NSM - 201009/el_end_2020-10-09.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 5 - NSM - 201009/el_exp_outcome_2020-10-09.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 5 - NSM - 201009/el_investment_ctrl_2020-10-09.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 5 - NSM - 201009/el_investment_task_2020-10-09.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 5 - NSM - 201009/el_questionnaire_2020-10-09.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 6 - NSM - 201012/All apps - wide-2020-10-12.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 6 - NSM - 201012/PageTimes-2020-10-12.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 6 - NSM - 201012/el_admin_2020-10-12.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 6 - NSM - 201012/el_dictator_task_2020-10-12.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 6 - NSM - 201012/el_end_2020-10-12.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 6 - NSM - 201012/el_exp_outcome_2020-10-12.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 6 - NSM - 201012/el_investment_ctrl_2020-10-12.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 6 - NSM - 201012/el_investment_task_2020-10-12.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 6 - NSM - 201012/el_questionnaire_2020-10-12.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 7 - SM - 201013/All apps - wide-2020-10-13.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 7 - SM - 201013/PageTimes-2020-10-13.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 7 - SM - 201013/el_admin_2020-10-13.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 7 - SM - 201013/el_dictator_task_2020-10-13.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 7 - SM - 201013/el_end_2020-10-13.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 7 - SM - 201013/el_exp_outcome_2020-10-13.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 7 - SM - 201013/el_investment_ctrl_2020-10-13.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 7 - SM - 201013/el_investment_task_2020-10-13.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 7 - SM - 201013/el_questionnaire_2020-10-13.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 8 - NSM - 201013/All apps - wide-2020-10-13 - PRACTICE QUESTIONS.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 8 - NSM - 201013/All apps - wide-2020-10-13 - PRACTICE QUESTIONS.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 8 - NSM - 201013/All apps - wide-2020-10-13.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 8 - NSM - 201013/PageTimes-2020-10-13.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 8 - NSM - 201013/el_admin_2020-10-13.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 8 - NSM - 201013/el_dictator_task_2020-10-13.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 8 - NSM - 201013/el_end_2020-10-13.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 8 - NSM - 201013/el_exp_outcome_2020-10-13.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 8 - NSM - 201013/el_investment_ctrl_2020-10-13.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 8 - NSM - 201013/el_investment_task_2020-10-13.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 8 - NSM - 201013/el_questionnaire_2020-10-13.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 9 - SM - 201013/All apps - wide-2020-10-13.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 9 - SM - 201013/PageTimes-2020-10-13.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 9 - SM - 201013/el_admin_2020-10-13.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 9 - SM - 201013/el_dictator_task_2020-10-13.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 9 - SM - 201013/el_end_2020-10-13.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 9 - SM - 201013/el_exp_outcome_2020-10-13.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 9 - SM - 201013/el_investment_ctrl_2020-10-13.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 9 - SM - 201013/el_investment_task_2020-10-13.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Session 9 - SM - 201013/el_questionnaire_2020-10-13.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Sessions - ALL/PageTimes-2020-10-23.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Sessions - ALL/all_apps_wide_2020-10-23.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Sessions - ALL/all_apps_wide_2020-10-23.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Sessions - ALL/el_admin_2020-10-23.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Sessions - ALL/el_admin_2020-10-23.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Sessions - ALL/el_dictator_task_2020-10-23.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Sessions - ALL/el_dictator_task_2020-10-23.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Sessions - ALL/el_end_2020-10-23.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Sessions - ALL/el_end_2020-10-23.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Sessions - ALL/el_exp_outcome_2020-10-23.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Sessions - ALL/el_exp_outcome_2020-10-23.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Sessions - ALL/el_investment_ctrl_2020-10-23.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Sessions - ALL/el_investment_ctrl_2020-10-23.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Sessions - ALL/el_investment_task_2020-10-23.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Sessions - ALL/el_investment_task_2020-10-23.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Sessions - ALL/el_questionnaire_2020-10-23.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Session Files/Experiment 2/Sessions - ALL/el_questionnaire_2020-10-23.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/1-RawData/Exp1-Data-Consolidated.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/1-RawData/Exp2-Data-choice.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/1-RawData/Exp2-Data-ctrl_qns.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/2-doFiles/an-paper.do" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Data/Exp1-cleaned-long-state.dta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Data/Exp1-cleaned-long.dta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Data/Exp1-cleaned.dta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Data/Exp2-cleaned-long-state.dta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Data/Exp2-cleaned-long.dta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Data/Exp2-cleaned.dta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Graphs/Figure3-GA.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Graphs/Figure3-GA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Graphs/Figure3-HA.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Graphs/Figure3-HA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Graphs/Figure3-LA.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Graphs/Figure3-LA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Graphs/Figure3-RA.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Graphs/Figure3-RA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Graphs/Figure4a.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Graphs/Figure4a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Graphs/Figure4b.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Graphs/Figure4b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Graphs/Figure5-GA.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Graphs/Figure5-GA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Graphs/Figure5-HA.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Graphs/Figure5-HA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Graphs/Figure5-LA.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Graphs/Figure5-LA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Graphs/Figure5-RA.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Graphs/Figure5-RA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Graphs/FigureD1a.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Graphs/FigureD1a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Graphs/FigureD1b.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Graphs/FigureD1b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Logs/InTextStats.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Logs/Table2.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Logs/Table3.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Logs/Table4.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Logs/Table5.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Logs/Table6.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Logs/TableD1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Logs/TableD10.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Logs/TableD11.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Logs/TableD12.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Logs/TableD2.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Logs/TableD3.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Logs/TableD4.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Logs/TableD5.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Logs/TableD6.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Logs/TableD7.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Logs/TableD8.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Logs/TableD9.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Tables/Table2.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Tables/Table2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Tables/Table2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Tables/Table3.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Tables/Table3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Tables/Table3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Tables/Table4.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Tables/Table4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Tables/Table4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Tables/Table5.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Tables/Table5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Tables/Table5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Tables/Table6.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Tables/Table6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Tables/Table6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Tables/TableD1.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Tables/TableD1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Tables/TableD1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Tables/TableD10.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Tables/TableD10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Tables/TableD10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Tables/TableD11.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Tables/TableD11.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Tables/TableD11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Tables/TableD12.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Tables/TableD12.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Tables/TableD12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Tables/TableD2.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Tables/TableD2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Tables/TableD2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Tables/TableD3.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Tables/TableD3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Tables/TableD3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Tables/TableD4.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Tables/TableD4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Tables/TableD4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Tables/TableD5.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Tables/TableD5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Tables/TableD5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Tables/TableD6.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Tables/TableD6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Tables/TableD6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Tables/TableD7.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Tables/TableD7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Tables/TableD7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Tables/TableD8.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Tables/TableD8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Tables/TableD8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Tables/TableD9.rtf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STATA/Tables/TableD9.tex" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1wwlJwOwwcj6BNMO5uGa0A8Krgg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0a1ef6c1-e358-4eba-9ceb-bf4c64304c3a" name="Default Changelist" comment="" />
+      <created>1629377464193</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1629377464193</updated>
+    </task>
+    <task id="LOCAL-00001" summary="210819 EE Supplementary Material">
+      <created>1629378254653</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1629378254653</updated>
+    </task>
+    <task id="LOCAL-00002" summary="210819 EE Supplementary Material">
+      <created>1629378341896</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1629378341896</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="210819 EE Supplementary Material" />
+    <option name="LAST_COMMIT_MESSAGE" value="210819 EE Supplementary Material" />
+  </component>
+</project>
